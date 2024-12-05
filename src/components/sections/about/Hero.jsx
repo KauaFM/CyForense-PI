@@ -13,11 +13,11 @@ const Hero = () => {
           className="relative z-10 text-center"
         >
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            About <span className="text-cyan-400">CyForense</span>
+            Sobre <span className="text-cyan-400">CyForense</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Leading the way in digital forensics and cybersecurity with expertise,
-            innovation, and unwavering commitment to your security.
+          Liderando o caminho em análise forense digital e segurança cibernética com experiência,
+          inovação e compromisso inabalável com sua segurança.
           </p>
         </motion.div>
       </Container>

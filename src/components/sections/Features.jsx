@@ -5,18 +5,18 @@ import Container from '../ui/Container';
 
 const features = [
   {
-    title: "Digital Forensics",
-    description: "Expert analysis and recovery of digital evidence using state-of-the-art tools and methodologies.",
+    title: "Perícia Digital",
+    description: "Análise especializada e recuperação de evidências digitais usando ferramentas e metodologias de última geração.",
     icon: FaShieldAlt
   },
   {
-    title: "Incident Response",
-    description: "24/7 emergency response team ready to handle and mitigate cyber security incidents.",
+    title: "Resposta a Incidente",
+    description: "Equipe de resposta a emergências 24 horas por dia, 7 dias por semana, pronta para lidar e mitigar incidentes de segurança cibernética.",
     icon: FaBell
   },
   {
-    title: "Security Consulting",
-    description: "Comprehensive security assessments and customized solutions for your organization.",
+    title: "Consultoria de Segurança",
+    description: "Avaliações de segurança abrangentes e soluções personalizadas para sua organização.",
     icon: FaUserShield
   }
 ];
@@ -26,7 +26,7 @@ const Features = () => {
     <section className="py-20 bg-gray-900">
       <Container>
         <h2 className="text-4xl font-bold text-center text-white mb-12">
-          Why Choose <span className="text-cyan-400">CyForense</span>
+        Por que escolher <span className="text-cyan-400">CyForense</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (

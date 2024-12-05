@@ -18,17 +18,17 @@ const Header = () => {
           <ul className="flex space-x-8">
             <li>
               <Link to="/" className="hover:text-cyan-400 transition-colors">
-                Home
+                Inicio
               </Link>
             </li>
             <li>
               <Link to="/about" className="hover:text-cyan-400 transition-colors">
-                About
+                Sobre
               </Link>
             </li>
             <li>
               <Link to="/services" className="hover:text-cyan-400 transition-colors">
-                Services
+                Serviços
               </Link>
             </li>
             <li>
@@ -38,7 +38,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/contact" className="hover:text-cyan-400 transition-colors">
-                Contact
+                Contato
               </Link>
             </li>
           </ul>

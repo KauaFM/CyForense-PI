@@ -7,20 +7,20 @@ const ContactInfo = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'contato@cyforense.com',
+      value: 'cyforense@gmail.com',
       href: 'mailto:contato@cyforense.com',
     },
     {
       icon: Phone,
       label: 'Telefone',
-      value: '+55 (11) 9999-9999',
+      value: '+55 (61) 9 9842-5929',
       href: 'tel:+5511999999999',
     },
     {
       icon: MapPin,
       label: 'Endereço',
-      value: 'São Paulo, SP - Brasil',
-      href: 'https://maps.google.com/?q=São+Paulo,+SP+-+Brasil',
+      value: 'Brasilia-DF',
+      href: 'https://www.google.com/maps/place/Bras%C3%ADlia,+Brasilia+-+Federal+District/@-15.7215488,-47.9373578,11z/data=!3m1!4b1!4m6!3m5!1s0x935a3d18df9ae275:0x738470e469754a24!8m2!3d-15.7975154!4d-47.8918874!16zL20vMDFoeV8?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D',
     },
   ];
 

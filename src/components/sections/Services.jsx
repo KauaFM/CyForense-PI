@@ -7,26 +7,26 @@ import Card from '../ui/Card';
 const services = [
   {
     id: 1,
-    title: "Threat Protection",
-    description: "Advanced protection against cyber threats using cutting-edge technology and proactive monitoring.",
+    title: "Proteção contra ameaças",
+    description: "Proteção avançada contra ameaças cibernéticas utilizando tecnologia de ponta e monitoramento proativo.",
     icon: FaShieldAlt
   },
   {
     id: 2,
-    title: "Security Auditing",
-    description: "Comprehensive assessment of your digital infrastructure to identify and address vulnerabilities.",
+    title: "Auditoria de segurança",
+    description: "Avaliação abrangente da sua infraestrutura digital para identificar e resolver vulnerabilidades.",
     icon: FaSearch
   },
   {
     id: 3,
-    title: "Security Consulting",
-    description: "Expert guidance on implementing robust security measures and best practices.",
+    title: "Consultoria de Segurança",
+    description: "Orientação especializada sobre a implementação de medidas de segurança robustas e melhores práticas.",
     icon: FaUserLock
   },
   {
     id: 4,
-    title: "Security Training",
-    description: "Educational programs to help your team understand and implement security best practices.",
+    title: "Treinamento de segurança",
+    description: "Programas educacionais para ajudar sua equipe a compreender e implementar as melhores práticas de segurança.",
     icon: FaGraduationCap
   }
 ];
@@ -36,9 +36,9 @@ const Services = () => {
     <section className="py-20 bg-gray-900">
       <Container>
         <SectionTitle
-          title="Our Security Services"
-          subtitle="Comprehensive cybersecurity solutions tailored to your needs"
-          highlight="Security"
+          title="Nossos serviços de segurança"
+          subtitle="Soluções abrangentes de segurança cibernética adaptadas às suas necessidades"
+          highlight="Segurança"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (

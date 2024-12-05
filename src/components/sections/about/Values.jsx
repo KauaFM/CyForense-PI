@@ -6,18 +6,18 @@ import Card from '../../ui/Card';
 
 const values = [
   {
-    title: "Security Commitment",
-    description: "We are dedicated to maintaining the highest standards of security and protection for our clients' digital assets.",
+    title: "Compromisso de Segurança",
+    description: "Nos dedicamos a manter os mais altos padrões de segurança e proteção para os ativos digitais de nossos clientes.",
     icon: FaShieldAlt
   },
   {
-    title: "Constant Innovation",
-    description: "We continuously evolve our methods and technologies to stay ahead of emerging cyber threats.",
+    title: "Inovação Constante",
+    description: "Evoluímos continuamente nossos métodos e tecnologias para nos mantermos à frente das ameaças cibernéticas emergentes.",
     icon: FaLightbulb
   },
   {
-    title: "Ethics & Transparency",
-    description: "We operate with complete transparency and adhere to the highest ethical standards in all our practices.",
+    title: "Ética e Transparência",
+    description: "Operamos com total transparência e aderimos aos mais altos padrões éticos em todas as nossas práticas.",
     icon: FaHandshake
   }
 ];
@@ -27,8 +27,8 @@ const Values = () => {
     <section className="py-20 bg-gray-800">
       <Container>
         <SectionTitle
-          title="Our Core Values"
-          subtitle="The principles that guide our work and relationships"
+          title="Nossos Valores Fundamentais"
+          subtitle="Os princípios que norteiam nosso trabalho e relacionamentos"
           highlight="Values"
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

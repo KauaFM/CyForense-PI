@@ -7,9 +7,9 @@ import SectionTitle from '../../ui/SectionTitle';
 const team = [
   {
     name: "Dr. Sarah Mitchell",
-    role: "Chief Executive Officer",
+    role: "Diretor Executivo",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-    bio: "With over 15 years in cybersecurity, Sarah leads our strategic vision and operations.",
+    bio: "Com mais de 15 anos em segurança cibernética, Sarah lidera nossa visão estratégica e operações.",
     social: {
       linkedin: "#",
       twitter: "#"
@@ -17,9 +17,9 @@ const team = [
   },
   {
     name: "James Wilson",
-    role: "Chief Technical Officer",
+    role: "Diretor Técnico",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
-    bio: "A pioneer in digital forensics with multiple patents in cybersecurity technology.",
+    bio: "Pioneira em análise forense digital com múltiplas patentes em tecnologia de segurança cibernética.",
     social: {
       linkedin: "#",
       twitter: "#"
@@ -27,9 +27,9 @@ const team = [
   },
   {
     name: "Dr. Emily Chen",
-    role: "Head of Research",
+    role: "Chefe de Pesquisa",
     image: "https://randomuser.me/api/portraits/women/5.jpg",
-    bio: "Leading our research initiatives in advanced threat detection and prevention.",
+    bio: "Liderando nossas iniciativas de pesquisa em detecção e prevenção avançada de ameaças.",
     social: {
       linkedin: "#",
       twitter: "#"
@@ -42,8 +42,8 @@ const Team = () => {
     <section className="py-20 bg-gray-900">
       <Container>
         <SectionTitle
-          title="Meet Our Team"
-          subtitle="The experts behind our cybersecurity solutions"
+          title="Conheça nossa equipe"
+          subtitle="Os especialistas por trás de nossas soluções de segurança cibernética"
           highlight="Team"
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

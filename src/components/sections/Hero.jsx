@@ -18,24 +18,27 @@ const Hero = () => {
         >
           {/* Title */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            <span className="text-cyan-400">Cyber</span> Security
+            <span className="text-cyan-400">Excelência</span>
             <br />
-            <span className="text-purple-400">Excellence</span>
+            em <span className="text-cyan-400"></span>
+            <br />
+
+            <span className="text-purple-400">CyberSegurança</span> <br />
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Leading the industry in digital forensics and cybersecurity solutions.
-            Protect your digital assets with cutting-edge technology and expert analysis.
+          Líder do setor em soluções de análise forense digital e segurança cibernética.
+          Proteja seus ativos digitais com tecnologia de ponta e análises especializadas.
           </p>
 
           {/* Buttons */}
           <div className="flex justify-center gap-4">
             <Button to="/services" variant="primary" aria-label="View Our Services">
-              Our Services
+            Nossos Serviços
             </Button>
             <Button to="/contact" variant="secondary" aria-label="Contact Us">
-              Contact Us
+            Contate-nos
             </Button>
           </div>
         </motion.div>

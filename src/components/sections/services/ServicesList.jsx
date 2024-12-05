@@ -8,49 +8,49 @@ const services = [
   {
     id: 1,
     icon: FaShieldAlt,
-    title: "Vulnerability Analysis",
-    description: "Comprehensive system analysis to identify and assess potential security vulnerabilities.",
+    title: "Análise de Vulnerabilidade",
+    description: "Análise abrangente do sistema para identificar e avaliar possíveis vulnerabilidades de segurança.",
     features: [
-      "Network Security Assessment",
-      "Application Security Testing",
-      "Infrastructure Evaluation",
-      "Risk Assessment Reports"
+      "Avaliação de segurança de rede",
+      "Teste de segurança de aplicativos",
+      "Avaliação de infraestrutura",
+      "Relatórios de avaliação de risco"
     ]
   },
   {
     id: 2,
     icon: FaBell,
-    title: "Incident Response",
-    description: "Rapid response and resolution for cybersecurity incidents and breaches.",
+    title: "Resposta a Incidentes",
+    description: "Resposta e resolução rápidas para incidentes e violações de segurança cibernética.",
     features: [
-      "24/7 Emergency Response",
-      "Threat Containment",
-      "Damage Assessment",
-      "Recovery Planning"
+     "Resposta de emergência 24 horas por dia, 7 dias por semana",
+      "Contenção de ameaças",
+      "Avaliação de danos",
+      "Planejamento de Recuperação"
     ]
   },
   {
     id: 3,
     icon: FaSearch,
-    title: "Digital Forensics",
-    description: "Expert analysis and investigation of digital evidence and security incidents.",
+    title: "Perícia Digital",
+    description: "Análise especializada e investigação de evidências digitais e incidentes de segurança.",
     features: [
-      "Evidence Collection",
-      "Data Recovery",
-      "Incident Investigation",
-      "Expert Testimony"
+      "Coleta de evidências",
+      "Recuperação de dados",
+      "Investigação de Incidentes",
+      "Testemunho de Especialista"
     ]
   },
   {
     id: 4,
     icon: FaGraduationCap,
-    title: "Security Training",
-    description: "Comprehensive security education programs for organizations and teams.",
+    title: "Treinamento de segurança",
+    description: "Programas abrangentes de educação em segurança para organizações e equipes.",
     features: [
-      "Security Awareness Training",
-      "Phishing Prevention",
-      "Best Practices Workshop",
-      "Compliance Training"
+      "Treinamento de Conscientização sobre Segurança",
+      "Prevenção de Phishing",
+      "Workshop de Melhores Práticas",
+      "Treinamento de Conformidade"
     ]
   }
 ];
@@ -86,9 +86,9 @@ const ServicesList = () => {
     <section className="py-20 bg-gray-900">
       <Container>
         <SectionTitle
-          title="Our Security Services"
-          subtitle="Comprehensive solutions to protect your digital assets"
-          highlight="Security"
+          title="Nossos serviços de segurança"
+          subtitle="Soluções abrangentes para proteger seus ativos digitais"
+          highlight="Segurança"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (

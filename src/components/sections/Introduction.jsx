@@ -15,14 +15,14 @@ const Introduction = () => {
             viewport={{ once: true }}
           >
             <SectionTitle
-              title="Protecting Your Digital Future"
+              title="Protegendo seu futuro digital"
               centered={false}
             />
             <p className="text-gray-400 mb-6">
-              At CyForense, we understand that in today's digital landscape, security is not just an option – it's a necessity. Our team of expert analysts and security professionals work tirelessly to protect your digital assets and maintain your cybersecurity posture.
+            Na CyForense, entendemos que no cenário digital atual, a segurança não é apenas uma opção – é uma necessidade. Nossa equipe de analistas especializados e profissionais de segurança trabalha incansavelmente para proteger seus ativos digitais e manter sua postura de segurança cibernética.
             </p>
             <Button to="/about" variant="outline">
-              Learn More About Us
+            Saiba mais sobre nós
             </Button>
           </motion.div>
           <motion.div

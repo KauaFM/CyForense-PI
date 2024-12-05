@@ -13,11 +13,11 @@ const Hero = () => {
           className="relative z-10 text-center"
         >
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Our <span className="text-cyan-400">Services</span>
+            Nossos <span className="text-cyan-400">Serviços</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Comprehensive cybersecurity solutions designed to protect your digital assets
-            and maintain your security posture in an ever-evolving threat landscape.
+          Soluções abrangentes de segurança cibernética projetadas para proteger seus ativos digitais
+          e mantenha sua postura de segurança em um cenário de ameaças em constante evolução.
           </p>
         </motion.div>
       </Container>

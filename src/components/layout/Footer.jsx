@@ -9,37 +9,37 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-cyan-400 mb-4">CyForense</h3>
             <p className="text-gray-400">
-              Leading the way in digital forensics and cybersecurity solutions.
+            Liderando o caminho em soluções de análise forense digital e segurança cibernética.
             </p>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4">Links rápidos</h4>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-gray-400 hover:text-cyan-400">About Us</Link></li>
-              <li><Link to="/services" className="text-gray-400 hover:text-cyan-400">Services</Link></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-cyan-400">Sobre nós</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-cyan-400">Serviços</Link></li>
               <li><Link to="/blog" className="text-gray-400 hover:text-cyan-400">Blog</Link></li>
-              <li><Link to="/contact" className="text-gray-400 hover:text-cyan-400">Contact</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-cyan-400">Contato</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Serviços</h4>
             <ul className="space-y-2">
-              <li><Link to="/services/digital-forensics" className="text-gray-400 hover:text-cyan-400">Digital Forensics</Link></li>
-              <li><Link to="/services/incident-response" className="text-gray-400 hover:text-cyan-400">Incident Response</Link></li>
-              <li><Link to="/services/security-audit" className="text-gray-400 hover:text-cyan-400">Security Audit</Link></li>
-              <li><Link to="/services/training" className="text-gray-400 hover:text-cyan-400">Training</Link></li>
+              <li><Link to="/services/digital-forensics" className="text-gray-400 hover:text-cyan-400">Perícia Digital</Link></li>
+              <li><Link to="/services/incident-response" className="text-gray-400 hover:text-cyan-400">Resposta a Incidentes</Link></li>
+              <li><Link to="/services/security-audit" className="text-gray-400 hover:text-cyan-400">Auditoria de segurança</Link></li>
+              <li><Link to="/services/training" className="text-gray-400 hover:text-cyan-400">Treinamento</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>contact@cyforense.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Cyber Street</li>
-              <li>Security Valley, CV 12345</li>
+              <li>cyforense@gmail.com</li>
+              <li>+55 (61) 9 9842-5929</li>
+              <li>Local Secreto</li>
+              <li>Vale da Segurança</li>
             </ul>
           </div>
         </div>

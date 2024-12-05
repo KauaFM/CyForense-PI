@@ -6,18 +6,18 @@ import SectionTitle from '../../ui/SectionTitle';
 const serviceDetails = [
   {
     id: 1,
-    title: "Expert Team",
-    description: "Our certified professionals bring decades of combined experience in cybersecurity."
+    title: "Equipe de especialistas",
+    description: "Nossos profissionais certificados trazem décadas de experiência combinada em segurança cibernética."
   },
   {
     id: 2,
-    title: "Advanced Technology",
-    description: "We utilize cutting-edge tools and methodologies to ensure comprehensive protection."
+    title: "Tecnologia Avançada",
+    description: "Utilizamos ferramentas e metodologias de ponta para garantir proteção abrangente."
   },
   {
     id: 3,
-    title: "24/7 Support",
-    description: "Round-the-clock monitoring and support to respond to security incidents."
+    title: "Suporte 24h por dia",
+    description: "Monitoramento e suporte 24 horas por dia para responder a incidentes de segurança."
   }
 ];
 
@@ -39,8 +39,8 @@ const ServiceDetails = () => {
     <section className="py-20 bg-gray-800">
       <Container>
         <SectionTitle
-          title="Why Choose Our Services"
-          subtitle="Expert solutions backed by years of experience"
+          title="Por que escolher nossos serviços"
+          subtitle="Soluções especializadas apoiadas por anos de experiência"
           highlight="Services"
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

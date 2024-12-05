@@ -6,23 +6,23 @@ import SectionTitle from '../../ui/SectionTitle';
 const steps = [
   {
     number: "01",
-    title: "Initial Assessment",
-    description: "We begin with a thorough evaluation of your current security posture."
+    title: "Avaliação Inicial",
+    description: "Começamos com uma avaliação completa da sua postura de segurança atual."
   },
   {
     number: "02",
-    title: "Strategy Development",
-    description: "Creating a customized security plan tailored to your needs."
+    title: "Desenvolvimento de Estratégia",
+    description: "Criação de um plano de segurança personalizado e adaptado às suas necessidades."
   },
   {
     number: "03",
-    title: "Implementation",
-    description: "Executing security measures with minimal disruption to your operations."
+    title: "Implementação",
+    description: "Executando medidas de segurança com o mínimo de interrupção em suas operações."
   },
   {
     number: "04",
-    title: "Continuous Monitoring",
-    description: "Ongoing surveillance and updates to maintain optimal security."
+    title: "Monitoramento Contínuo",
+    description: "Vigilância e atualizações contínuas para manter a segurança ideal."
   }
 ];
 
@@ -31,9 +31,9 @@ const Process = () => {
     <section className="py-20 bg-gray-900">
       <Container>
         <SectionTitle
-          title="Our Process"
-          subtitle="How we implement our security solutions"
-          highlight="Process"
+          title="Nosso Processo"
+          subtitle="Como implementamos nossas soluções de segurança"
+          highlight="Processos"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (

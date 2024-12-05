@@ -8,8 +8,8 @@ const Mission = () => {
     <section className="py-20 bg-gray-900">
       <Container>
         <SectionTitle
-          title="Mission & Vision"
-          subtitle="Our purpose and aspirations in the cybersecurity landscape"
+          title="Missão e Visão"
+          subtitle="Nosso propósito e aspirações no cenário da segurança cibernética  "
           highlight="Vision"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -19,11 +19,11 @@ const Mission = () => {
             viewport={{ once: true }}
             className="bg-gray-800 p-8 rounded-lg"
           >
-            <h3 className="text-2xl font-bold text-cyan-400 mb-4">Our Mission</h3>
+            <h3 className="text-2xl font-bold text-cyan-400 mb-4">Nossa Missão</h3>
             <p className="text-gray-400">
-              "To protect data and guarantee digital integrity in an increasingly
-              connected world, providing cutting-edge cybersecurity solutions and
-              expert guidance to organizations of all sizes."
+            “Para proteger os dados e garantir a integridade digital de uma forma cada vez mais
+              mundo conectado, fornecendo soluções de segurança cibernética de ponta e
+              orientação especializada para organizações de todos os tamanhos."
             </p>
           </motion.div>
           <motion.div
@@ -32,11 +32,11 @@ const Mission = () => {
             viewport={{ once: true }}
             className="bg-gray-800 p-8 rounded-lg"
           >
-            <h3 className="text-2xl font-bold text-purple-400 mb-4">Our Vision</h3>
+            <h3 className="text-2xl font-bold text-purple-400 mb-4">Nossa Visão</h3>
             <p className="text-gray-400">
-              "To be the global reference in cybersecurity, leading innovations
-              and best practices in the sector while fostering a safer digital
-              world for all."
+            “Ser referência global em segurança cibernética, liderando inovações
+              e melhores práticas no setor, promovendo ao mesmo tempo um ambiente digital mais seguro
+              mundo para todos."
             </p>
           </motion.div>
         </div>

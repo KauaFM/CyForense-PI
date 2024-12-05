@@ -20,8 +20,8 @@ const ContactForm = () => {
     message: '',
   });
   const [errors, setErrors] = useState<FormErrors>({});
-  const [loading, setLoading] = useState(false);  // Para gerenciar o estado de envio
-  const [successMessage, setSuccessMessage] = useState('');  // Para mensagem de sucesso
+  const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState(''); 
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -44,7 +44,7 @@ const ContactForm = () => {
 
         if (response.ok) {
           setSuccessMessage('Formulário enviado com sucesso!');
-          setFormData({ name: '', email: '', message: '' }); // Limpa o formulário
+          setFormData({ name: '', email: '', message: '' });
           setErrors({});
         } else {
           setErrors((prevErrors) => ({

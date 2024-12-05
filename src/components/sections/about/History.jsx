@@ -14,22 +14,22 @@ const History = () => {
             viewport={{ once: true }}
           >
             <SectionTitle
-              title="Our Journey"
+              title="Nossa jornada"
               centered={false}
               highlight="Journey"
             />
             <div className="space-y-6 text-gray-400">
               <p>
-                Founded in 2015, CyForense emerged from a vision to revolutionize
-                digital forensics and cybersecurity. Our founders, with decades of
-                combined experience in cybersecurity, recognized the need for a more
-                comprehensive and innovative approach to digital security.
+              Fundada em 2015, a CyForense surgiu de uma visão para revolucionar
+                análise forense digital e segurança cibernética. Nossos fundadores, com décadas de
+                experiência combinada em segurança cibernética, reconheceu a necessidade de uma abordagem mais
+                abordagem abrangente e inovadora à segurança digital.
               </p>
               <p>
-                Over the years, we've grown from a small team of dedicated experts
-                to a leading force in the cybersecurity industry, serving clients
-                across the globe and protecting critical digital assets from
-                ever-evolving threats.
+              Ao longo dos anos, crescemos a partir de uma pequena equipe de especialistas dedicados
+                para uma força líder no setor de segurança cibernética, atendendo clientes
+                em todo o mundo e protegendo ativos digitais críticos de
+                ameaças em constante evolução.
               </p>
             </div>
           </motion.div>

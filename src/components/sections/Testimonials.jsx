@@ -7,19 +7,19 @@ const testimonials = [
   {
     name: "John Smith",
     role: "CTO, TechCorp",
-    content: "CyForense's expertise in digital forensics helped us identify and resolve a critical security breach. Their team's professionalism and quick response time were outstanding.",
+    content: "A experiência da CyForense em análise forense digital nos ajudou a identificar e resolver uma violação crítica de segurança. O profissionalismo da equipe e o rápido tempo de resposta foram excelentes.",
     image: "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
     name: "Sarah Johnson",
-    role: "Security Director, DataSafe",
-    content: "Working with CyForense has significantly improved our security posture. Their training programs are comprehensive and their support is unmatched.",
+    role: "Diretor de Segurança, DataSafe",
+    content: "Trabalhar com a CyForense melhorou significativamente nossa postura de segurança. Seus programas de treinamento são abrangentes e seu apoio é incomparável.",
     image: "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
     name: "Michael Chen",
     role: "CEO, SecureNet",
-    content: "CyForense's security consulting services have been invaluable to our organization. They provide practical solutions that align with our business goals.",
+    content: "Os serviços de consultoria de segurança da CyForense têm sido inestimáveis ​​para a nossa organização. Eles fornecem soluções práticas que se alinham aos nossos objetivos de negócios.",
     image: "https://randomuser.me/api/portraits/men/2.jpg"
   }
 ];
@@ -29,8 +29,8 @@ const Testimonials = () => {
     <section className="py-20 bg-gray-800">
       <Container>
         <SectionTitle
-          title="Client Testimonials"
-          subtitle="What our clients say about our cybersecurity services"
+          title="Depoimentos de clientes"
+          subtitle="O que nossos clientes dizem sobre nossos serviços de segurança cibernética"
           highlight="Testimonials"
         />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

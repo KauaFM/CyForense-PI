@@ -14,17 +14,17 @@ const CallToAction = () => {
           className="text-center"
         >
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Secure Your Digital Assets?
+          Pronto para proteger seus ativos digitais?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Contact us today for a comprehensive security assessment and learn how we can protect your organization.
+          Contate-nos hoje para uma avaliação de segurança abrangente e saiba como podemos proteger sua organização.
           </p>
           <div className="flex justify-center gap-4">
             <Button to="/contact" variant="primary">
-              Get Started
+            Comece
             </Button>
             <Button to="/services" variant="outline">
-              Learn More
+            Saber mais
             </Button>
           </div>
         </motion.div>
