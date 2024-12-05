@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #06b6d4;
+  --secondary: #a855f7;
+  --background: #111827;
+}
+
+body {
+  @apply bg-gray-900 text-white;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
