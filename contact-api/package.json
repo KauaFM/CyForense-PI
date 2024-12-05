@@ -1,0 +1,27 @@
+{
+  "name": "contact-api",
+  "version": "1.0.0",
+  "description": "API REST para gerenciar contatos enviados pelo formulário do site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [
+    "contact",
+    "api",
+    "express",
+    "cors"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
