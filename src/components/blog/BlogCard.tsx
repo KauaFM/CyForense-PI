@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Clock, User } from 'lucide-react';
-import { BlogPost } from '../../types/blog';  // Certifique-se de que a interface BlogPost esteja definida em types/blog
+import { Clock, User, MessageCircle } from 'lucide-react';
+import { BlogPost } from '../../types/blog';  // Certifique-se de que a interface BlogPost está com a nova propriedade
 import { Link } from 'react-router-dom';
 
 interface BlogCardProps {
@@ -55,6 +55,10 @@ const BlogCard: React.FC<BlogCardProps> = ({ post, index }) => {
             <div className="flex items-center">
               <User className="w-4 h-4 mr-1" />
               {post.author}
+            </div>
+            <div className="flex items-center">
+              <MessageCircle className="w-4 h-4 mr-1" />
+              {post.commentsCount} 
             </div>
             <time>{formatDate(post.date)}</time>
           </div>

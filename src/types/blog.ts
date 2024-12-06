@@ -8,6 +8,7 @@ export interface BlogPost {
     author: string;
     date: string;
     readTime: number;
+    commentsCount: number;
   }
   
   export type Category = {

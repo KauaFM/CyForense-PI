@@ -17,6 +17,7 @@ export const blogPosts: BlogPost[] = [
     author: 'Ana Silva',
     date: '2024-03-10',
     readTime: 5,
+    commentsCount: 12,
   },
   {
     id: '2',
@@ -28,6 +29,7 @@ export const blogPosts: BlogPost[] = [
     author: 'Pedro Santos',
     date: '2024-03-08',
     readTime: 7,
+    commentsCount: 5, 
   },
   {
     id: '3',
@@ -39,5 +41,6 @@ export const blogPosts: BlogPost[] = [
     author: 'Carlos Mendes',
     date: '2024-03-05',
     readTime: 4,
+    commentsCount: 3,
   },
 ];
