@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const ContactInfo = () => {
   const contactDetails = [
@@ -34,6 +34,11 @@ const ContactInfo = () => {
       icon: Twitter,
       label: 'Twitter',
       href: 'https://twitter.com/cyforense',
+    },
+    {
+      icon: Instagram,
+      label: 'Instagram',
+      href: 'https://instagram.com/cyforense',
     },
   ];
 
